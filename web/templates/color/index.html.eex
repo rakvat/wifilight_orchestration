@@ -1,0 +1,16 @@
+<h3>Your friendly Wifilight Orchestration</h3>
+<div>
+    <a href="/color?r=0&g=0&b=0" class="btn">off</a><br/>
+    <a href="/color?r=255&g=255&b=255" class="btn">on</a>
+</div>
+<div>
+    <a href="/color?r=255&g=0&b=0" class="btn">red</a><br/>
+    <a href="/color?r=0&g=255&b=0" class="btn">green</a><br/>
+    <a href="/color?r=0&g=0&b=255" class="btn">blue</a>
+</div>
+<div>
+    <a href="/color?r=255&g=255&b=0" class="btn">yellow</a><br/>
+    <a href="/color?r=255&g=0&b=255" class="btn">magenta</a><br/>
+    <a href="/color?r=0&g=255&b=255" class="btn">turquoise</a>
+</div>
+

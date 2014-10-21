@@ -3,10 +3,6 @@ defmodule WifilightOrchestration.PageController do
 
   plug :action
 
-  def index(conn, _params) do
-    render conn, "index"
-  end
-
   def not_found(conn, _params) do
     render conn, "not_found"
   end
