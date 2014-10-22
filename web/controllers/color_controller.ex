@@ -8,12 +8,14 @@ defmodule WifilightOrchestration.ColorController do
   end
 
   def set_color(conn, params) do
-    port = 5577 
-    ip = {192,168,1,23}
+    device_config = Application.get_env(:orchestration, :device)
+
+    port = device_config[:port]
+    ip = device_config[:ip] |> String.split(".") |> Enum.map(&String.to_integer/1) |> List.to_tuple
  
-    r = String.to_integer(conn.params["r"], 10)
-    g = String.to_integer(conn.params["g"], 10)
-    b = String.to_integer(conn.params["b"], 10)
+    r = String.to_integer(params["r"], 10)
+    g = String.to_integer(params["g"], 10)
+    b = String.to_integer(params["b"], 10)
  
     IO.puts "sending r #{r}, g #{g}, b #{b}"
  
