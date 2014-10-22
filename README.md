@@ -1,4 +1,9 @@
-# WifilightOrchestration
+# wifilight_orchestration
+
+experiments talking LW-12 wifi wlan led rgb strips controller via elixir/phoenix
+
+
+## Setup
 
 To start your new Phoenix application:
 
@@ -6,3 +11,4 @@ To start your new Phoenix application:
 2. Start Phoenix router with `mix phoenix.start`
 
 Now you can visit `localhost:4000` from your browser.
+
