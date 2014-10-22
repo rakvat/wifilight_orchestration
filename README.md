@@ -1,4 +1,4 @@
-# wifilight_orchestration
+# Wifilight Orchestration
 
 experiments talking LW-12 wifi wlan led rgb strips controller via elixir/phoenix
 
