@@ -1,3 +1,5 @@
+Deprecated. See https://github.com/rakvat/flask-react-led-control for a newer version.
+
 # Wifilight Orchestration
 
 experiments talking LW-12 wifi wlan led rgb strips controller via elixir/phoenix
